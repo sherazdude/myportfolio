@@ -1,0 +1,135 @@
+*{
+	margin: 0rem;
+	padding: 0rem;
+}
+#navbar a{
+border-bottom: .5rem solid transparent;
+}
+#navbar a:hover{
+border-bottom: .5rem solid black;
+color: black !important;
+
+}
+.navbar-brand{
+	color: white !important;
+
+}
+.navbar{
+	background: linear-gradient(to left,#a517ba,#5f1782);
+	padding: 0 !important;
+
+}
+
+.navbar-nav li{
+	padding: 0 1rem ;
+}
+.navbar-nav li a{
+	color: white !important;
+	font-weight: 600;
+}
+
+.fa-bars{
+	color: #fff;
+	font-weight: 2rem !important;
+}
+.navbar-toggler{
+	outline: none !important;
+}
+.nav-bar{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+.our{
+	background: linear-gradient(to left,#a517ba,#5f1782);
+   padding: .8rem 2rem;
+	box-shadow: none;
+	border: none;
+	border-radius: 1.8rempx;
+}
+
+#banner{
+		background: linear-gradient(to left,#a517ba,#5f1782);
+		color: #fff ;
+}
+.title{
+	font-size: 3rem;
+	font-weight: 600;
+	margin-top: 10%;
+}
+
+
+
+.bt-img{
+	width:100%;
+
+}
+
+.size{
+	width: 9.8rem;
+	height: 9.8rem;
+}
+ul li{
+margin: .5rem 0rem;
+}
+
+
+.user1{
+	height: 6rem;
+	width: 6rem;
+	border-radius: 50%;
+}
+
+.bor{
+	border-left: .5rem solid #a517ba;
+}
+
+.forhover img{
+	transition: 0.5s;
+}
+
+.forhover a:hover img{
+	transform: translateY(-.20rem);
+}
+
+.SOCIAL{
+	margin-top: 6rem;
+}
+
+
+#footer{
+	background: linear-gradient(to left,#a517ba,#5f1782);
+}
+
+.icon .fas{
+	margin-right: 8px;
+	font-size: 25px;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	padding-top: 7px;
+	border-radius: 2px;
+	background: linear-gradient(to left,#a517ba,#5f1782);
+}
+
+
+
+
+#sec{
+	padding: 10px 0px;
+	color: #fff ;
+	background: linear-gradient(to left,#a517ba,#5f1782);
+border-top: 1px solid black;
+}
+
+@media(max-width:998px){
+	html{
+		font-size: 65%;
+	}
+}
+@media(max-width:768px){
+	html{
+		font-size: 55%;
+	}
+}
